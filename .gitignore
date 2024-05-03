@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.xy
+fit.json
+venv/
+.env
