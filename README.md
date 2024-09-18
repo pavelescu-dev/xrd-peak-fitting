@@ -26,3 +26,8 @@ clunky. I just wanted something I can run on my laptop while on the train.
 
 - Young, R.A. (1993) *The Rietveld Method*
 - scipy.optimize.curve_fit docs
+
+## Known issues
+
+- On low-count patterns `scipy.optimize.curve_fit` fails to converge. Use
+  `--fwhm-init` to seed a wider initial guess.
